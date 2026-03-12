@@ -1,0 +1,23 @@
+/* src/app/app.component.css */
+
+.modal.show {
+  display: block;
+}
+
+.table th {
+  background-color: #343a40;
+  color: white;
+}
+
+.btn-sm {
+  margin: 0 2px;
+}
+
+.alert {
+  margin-top: 10px;
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
