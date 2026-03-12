@@ -1,0 +1,16 @@
+﻿GET https://localhost:7283/api/books
+
+###
+GET https://localhost:7283/api/books/4
+
+###
+POST https://localhost:7283/api/books
+Content-Type: application/json
+
+{
+      "id": 6,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Joel",
+      "isbn": "978-0-7432-7356-8",
+      "publicationDate": "1925-04-10T00:00:00"
+}
